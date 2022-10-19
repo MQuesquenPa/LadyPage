@@ -8,6 +8,15 @@ const greySecondary = '#A5A5A5';
 const redPrimary = '#AA0000';
 const redSecondary = '#C90606';
 
+const withe = '#fff';
+
+const greenPrimary = '#4caf50';
+const greenSecondary = '#76ff03';
+
+const bluePrimary = '#2196f3';
+const blueSecundary = '#4dabf5';
+
+
 
 export default {
     blackPrimary,
@@ -16,7 +25,12 @@ export default {
     greyPrimary,
     greySecondary,
     redPrimary,
-    redSecondary
+    redSecondary,
+    withe,
+    greenPrimary,
+    greenSecondary,
+    bluePrimary,
+    blackSecondary
 }
 
 

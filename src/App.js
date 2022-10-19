@@ -1,15 +1,14 @@
 import './App.css';
-import Buttons from './components/Buttons/ButtonSimple';
+import { AllCards } from './components/Blog_Articles/AllCards';
+// import { AllButtons } from './components/Buttons/AllButtons';
 
-const {ButtonIcon, ButtonPrimary} =  Buttons
 
 function App() {
   return (
-    <div className="App">
-        
-        <ButtonPrimary title = "COMO ESTAS?" />
-        <ButtonIcon title = "DELETE" />
-
+    <div style={{padding: '50px'}}>
+      <h1>PROBANDO</h1>
+     {/* <AllButtons /> */}
+     <AllCards />
     </div>
   );
 }
